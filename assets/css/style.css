@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana,sans-serif;
+}
+div#static {
+    margin: 5px 5px 10px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #E0E0E0 ;
+}
+div#static > img {
+    max-width: 140px;
+    height: auto;
+}
+div#static > h1 {
+    font-size: 50px;
+}
+
+div#changeable {
+    margin: 5px 5px 10px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #E0E0E0;
+    font-size: 25px;
+    min-height: 100px;
+}
+/*phase 1*/
+div#changeable > div > h3 {
+    display: inline;
+}
+div.begin{
+    display: inline-block;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #787878;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+
+}
+/*phase 2*/
+form#login {
+   display: none;
+}
+form#signUp {
+    display: none;
+}
+
+form> button {
+    display: inline-block;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #787878;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+/*table all movies*/
+#allMovies{
+    background-color: #E0E0E0;
+    border: 1px solid #484848;
+}
+#allMovies>thead {
+    background-color: silver;
+}
+#allMovies th,td,tr {
+    border: 1px solid #484848;
+    padding: 5px;
+}

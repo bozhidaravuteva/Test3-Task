@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My film Archive</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
+<body>
+    <div id="static">
+        <img src="assets/images/cinema.png" alt="cinema"/>
+        <h1>My film Archive</h2>
+    </div>
+    <div id="changeable">
+        <div >
+            <h3> Влез в профила: </h3>
+            <div class="begin" id="log">Login</div>
+        </div>
+        <div >
+            <h3> Направи регистрация: </h3>
+            <div  class="begin" id="sign">Sign up</div>
+        </div>
+        <form id="login">
+        <input type="text" placeholder="Име:"></input>
+        <input type="password" placeholder="Парола:"></input>
+        <button id="loginBut">Login</button>
+        </form>
+        <form id="signUp">
+        <input type="text" placeholder="Име:"></input>
+        <input type="password" placeholder="Парола:"></input>
+        <button id="signUpBut">Sign up</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="assets/script/userController.js"></script>
+    <script type="text/javascript" src="assets/script/userService.js"></script>
+</body>
+</html>
